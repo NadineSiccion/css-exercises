@@ -1,0 +1,14 @@
+.contrast-black, 
+.contrast-yellow {
+    font-size: 28px;
+    font-family: 'Helvitica', 'Times New Roman', sans-serif   
+}
+
+.contrast-black {
+    background-color: black;
+    color: white;
+}
+
+.contrast-yellow{
+    background-color: yellow;
+}
