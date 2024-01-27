@@ -20,6 +20,19 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 8px;
+}
+
+.message-container {
+  gap: 16px;
+}
+
+.message-container .text {
+  margin-bottom: 16px;
 }
 
 .icon {
@@ -33,6 +46,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+.header-close-container {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 20px;
+  width: max-content;
 }
 
 .close-button {
@@ -48,12 +76,16 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin-left: auto;
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  margin: 16, 0;
 }
 
 button.continue {
