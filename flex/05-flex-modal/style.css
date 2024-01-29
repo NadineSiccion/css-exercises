@@ -24,11 +24,12 @@ body {
   flex-flow: row nowrap;
   align-items: flex-start;
   gap: 16px;
-  padding: 8px;
+  padding: 16px;
 }
 
 .message-container {
   gap: 16px;
+  border: red 2px solid;
 }
 
 .message-container .text {
@@ -49,18 +50,15 @@ body {
   flex-shrink: 0;
 }
 
-.header-close-container {
+.header {
+  font-weight: 700;
+  font-size: 18px;
+  /* width: max-content; */
   display: flex;
   flex-flow: row;
   align-items: center;
   margin-bottom: 8px;
-  margin-top: 8px;
-}
-
-.header {
-  font-weight: 700;
-  font-size: 20px;
-  width: max-content;
+  border: green 2px solid;
 }
 
 .close-button {
